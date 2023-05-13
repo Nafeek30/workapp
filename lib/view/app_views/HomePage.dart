@@ -41,7 +41,7 @@ class HomePageState extends State<HomePage> {
               print('Logout clicked');
             },
             style: ElevatedButton.styleFrom(
-              primary: Constants.druglandBlue,
+              backgroundColor: Constants.druglandBlue,
             ),
             child: const Text(
               'Logout',
@@ -62,16 +62,16 @@ class HomePageState extends State<HomePage> {
             InkWell(
               onTap: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => HomePage()));
+                    MaterialPageRoute(builder: (context) => const HomePage()));
               },
               child: Container(
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(20),
                   color: Constants.druglandBlue,
                 ),
-                child: Column(
+                child: const Column(
                   mainAxisAlignment: MainAxisAlignment.center,
-                  children: const [
+                  children: [
                     Icon(
                       Icons.person,
                       size: 50,
@@ -90,16 +90,16 @@ class HomePageState extends State<HomePage> {
             InkWell(
               onTap: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => OrderPage()));
+                    MaterialPageRoute(builder: (context) => const OrderPage()));
               },
               child: Container(
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(20),
                   color: Constants.druglandBlue,
                 ),
-                child: Column(
+                child: const Column(
                   mainAxisAlignment: MainAxisAlignment.center,
-                  children: const [
+                  children: [
                     Icon(
                       Icons.list_alt,
                       size: 50,
@@ -118,16 +118,16 @@ class HomePageState extends State<HomePage> {
             InkWell(
               onTap: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => HomePage()));
+                    MaterialPageRoute(builder: (context) => const HomePage()));
               },
               child: Container(
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(20),
                   color: Constants.druglandBlue,
                 ),
-                child: Column(
+                child: const Column(
                   mainAxisAlignment: MainAxisAlignment.center,
-                  children: const [
+                  children: [
                     Icon(
                       Icons.home_work_outlined,
                       size: 50,
@@ -146,16 +146,16 @@ class HomePageState extends State<HomePage> {
             InkWell(
               onTap: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => HomePage()));
+                    MaterialPageRoute(builder: (context) => const HomePage()));
               },
               child: Container(
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(20),
                   color: Constants.druglandBlue,
                 ),
-                child: Column(
+                child: const Column(
                   mainAxisAlignment: MainAxisAlignment.center,
-                  children: const [
+                  children: [
                     Icon(
                       Icons.settings,
                       size: 50,
@@ -174,16 +174,16 @@ class HomePageState extends State<HomePage> {
             InkWell(
               onTap: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => HomePage()));
+                    MaterialPageRoute(builder: (context) => const HomePage()));
               },
               child: Container(
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(20),
                   color: Constants.druglandBlue,
                 ),
-                child: Column(
+                child: const Column(
                   mainAxisAlignment: MainAxisAlignment.center,
-                  children: const [
+                  children: [
                     Icon(
                       Icons.admin_panel_settings,
                       size: 50,

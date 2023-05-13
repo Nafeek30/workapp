@@ -58,7 +58,7 @@ class OrderPageState extends State<OrderPage> {
                   ),
                   ElevatedButton(
                     style: ElevatedButton.styleFrom(
-                      primary: Constants.druglandGreen,
+                      backgroundColor: Constants.druglandGreen,
                     ),
                     onPressed: () {
                       print('ADD ORDER CLICKED');

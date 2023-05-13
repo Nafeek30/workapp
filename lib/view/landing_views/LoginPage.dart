@@ -25,7 +25,7 @@ class LoginPageState extends State<LoginPage> {
               onPressed: () {
                 print('login clicked');
                 Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => HomePage()));
+                    context, MaterialPageRoute(builder: (_) => const HomePage()));
               },
               child: const Text('Login'),
             ),
